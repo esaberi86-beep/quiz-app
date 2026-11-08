@@ -1,0 +1,26 @@
+# macOS-Systemdateien
+.DS_Store
+._*
+
+# Einstellungen von Editoren / Claude Code
+.vscode/
+.idea/
+.claude/
+
+# Private Dateien: Schlüssel, Passwörter, Umgebungsvariablen
+.env
+.env.*
+*.key
+*.pem
+geheim*
+secret*
+
+# Backups aus der App (enthalten deine Quizze und Statistik)
+quiz-backup-*.json
+
+# Lernmaterial, das du zum Testen benutzt (Urheberrecht / privat)
+*.pdf
+
+# Sonstiges
+*.log
+node_modules/
